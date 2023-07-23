@@ -1,0 +1,52 @@
+{
+  "name": "auth-backend",
+  "version": "1.0.0",
+  "description": "Pattern backend to login and register using nodejs and mongodb",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/closeluca1/backend-auth.git"
+  },
+  "keywords": [
+    "backend",
+    "auth",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Patrick Lucas Martins (closeluca1)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/closeluca1/backend-auth/issues"
+  },
+  "homepage": "https://github.com/closeluca1/backend-auth#readme",
+  "dependencies": {
+    "0g": "^0.0.9",
+    "npm": "^9.8.1",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/nodemailer": "^6.4.6",
+    "@types/nodemailer-express-handlebars": "^4.0.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "4.13",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.6.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
