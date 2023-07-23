@@ -19,6 +19,8 @@ Make sure you have the following software installed on your system:
   
 #
 ### ROUTES
+`localhost:port/`
+
 `localhost:port/register`
 
 `localhost:port/login`
@@ -46,3 +48,8 @@ Make sure you have the following software installed on your system:
 `API_URL=mongodb://127.0.0.1:27017/backend`
 
 ` SITE_URL=http://127.0.0.1:`
+
+
+#
+
+![by Patrick Lucas Martins](image.png)
